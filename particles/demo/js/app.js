@@ -1,14 +1,3 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
@@ -16,14 +5,14 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 111,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#1da719"
       },
       "shape": {
         "type": "circle",
@@ -41,7 +30,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.8,
         "random": false,
         "anim": {
           "enable": false,
@@ -63,7 +52,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#1da719",
         "opacity": 0.4,
         "width": 1
       },
@@ -122,7 +111,7 @@ particlesJS('particles-js',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#b61924",
+      "background_color": "#333333",
       "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
