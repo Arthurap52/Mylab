@@ -1,0 +1,172 @@
+/*limpa formatações padroes*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #e6e6e6;
+}
+
+/* layout */
+#area-cabecalho{
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px; 
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.projetos{
+    align-items: center;
+    background: white;
+    width: 750px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* formatacao menu */
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #af670a;
+    font-size: 17px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h4 a:link, h4 a:visited {
+    color:#000;
+    font-size: 17px;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+}
+
+.bg-menu {
+    background-color: #222;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    color:#af670a;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.area-menu-links {
+
+}
+
+#area-menu a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #af670a;
+    border-radius: 4px;
+}
+
+/* formatacoes gerais*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+
+#nome-aba a {
+    color: black;
+    background: #4e4e4e;
+}
+
+.abas {
+    color: #111;
+    background: #e6e6e6;
+}
+
+.branco{
+    color: white;
+}
+    
+.box{
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+          
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+    
+.box div{
+    font-size: 22px;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+    
+h1 {         
+    width: 100% !important;
+    text-align: center !important;          
+}
+    
+p{
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background-color: #222;
+	padding: 40px 0px 20px 0px;
+    margin: 0 auto;
+    margin-right: 25px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+#rodape {
+    text-align: center;
+}
