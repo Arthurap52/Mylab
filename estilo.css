@@ -18,7 +18,8 @@ body {
 }
 
 #area-logo, #area-menu {
-    padding: 10px; 
+    padding: 10px;
+    padding-bottom: 10px; 
 }
 
 .caixa {
@@ -26,12 +27,16 @@ body {
     border-bottom: 1px solid #e5e5e5;
 }
 
+#area-principal {
+    padding: 15px;
+}
+
 .projetos{
     align-items: center;
     background: white;
     width: 750px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px;
 }
 
 /* formatacao menu */
@@ -135,6 +140,7 @@ h1 {
     width: 100% !important;
     text-align: center !important;          
 }
+
     
 p{
     font-size: 17px;
@@ -146,7 +152,7 @@ p{
 -----------------------------*/
 footer {
 	background-color: #222;
-	padding: 40px 0px 20px 0px;
+	padding: 40px 15px 40px 15px;
     margin: 0 auto;
     margin-right: 25px;
 	padding-bottom: 20px;
