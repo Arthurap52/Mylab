@@ -147,6 +147,7 @@ p{
 /* Rodapé
 -----------------------------*/
 footer {
+    clear: both;
 	background-color: #222;
 	padding: 40px 15px 40px 15px;
     margin: 0 auto;
