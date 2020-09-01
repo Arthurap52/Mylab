@@ -34,7 +34,7 @@ body {
 .projetos{
     align-items: center;
     background: white;
-    width: 65%;
+    width: 64%;
     margin: 0 auto;
     padding: 30px;
 }
@@ -70,10 +70,6 @@ h4 a:hover {
     color:#af670a;
     padding: 8px 12px;
     font-size: 14px;
-}
-
-.area-menu-links {
-
 }
 
 #area-menu a:hover {
