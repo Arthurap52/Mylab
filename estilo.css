@@ -33,6 +33,17 @@ body {
 }
 
 .projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 64%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.projetos_sem_centralizar{
     align-items: center;
     background: white;
     width: 64%;
@@ -104,6 +115,8 @@ nav ul li a:link {
 }
 
 .botao_informacao {
+    display: flex !important;
+    justify-content: center !important;
     background-color: #86521a;
     color: white;
     
