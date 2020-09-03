@@ -103,6 +103,17 @@ nav ul li a:link {
 	text-transform: uppercase;
 }
 
+.botao_informacao {
+    background-color: #86521a;
+    color: white;
+    
+}
+
+.botao_informacao:hover {
+    background-color: #af670a;
+    color: #000;
+}
+
 
 #nome-aba a {
     color: black;
