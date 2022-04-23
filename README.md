@@ -7,3 +7,8 @@ O mylab é um repositório criado para armazenar diversos projetos desenvolvidos
 ## Linguagens Utilizadas
 
 ### Dentre as linguagens utilizadas na criação destes projetos estão:
+
+Javaascript <br>
+HTML<br>
+CSS<br>
+Bootstrap
